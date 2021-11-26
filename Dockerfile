@@ -16,3 +16,5 @@ RUN apt install dumb-init
 ENV LD_PRELOAD="/usr/local/lib/libjemalloc.so.2"
 
 ENTRYPOINT ["dumb-init", "-v", "--", "python3", "src/bot.py"]
+
+sagbab
